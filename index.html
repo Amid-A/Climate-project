@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Projects Directory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Climate Projects</h1>
+      <p class="subtitle">Explore and support environmental initiatives across Africa and beyond.</p>
+    </header>
+
+    <section class="controls">
+      <input type="text" id="searchInput" placeholder="Search projects by title or location..." />
+      
+      <div class="filter-buttons" id="filterContainer">
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="Forestry">Forestry</button>
+        <button class="filter-btn" data-category="E-waste">E-waste</button>
+        <button class="filter-btn" data-category="Renewables">Renewables</button>
+      </div>
+    </section>
+
+    <main class="projects-grid" id="projectsGrid"></main>
+  </div>
+
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal">&times;</button>
+      <div id="modalBody"></div>
+
+      <hr class="divider">
+
+      <h3>Get Involved / Express Interest</h3>
+      <form id="interestForm" novalidate>
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" required>
+          <span class="error-msg" id="nameError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" required>
+          <span class="error-msg" id="emailError"></span>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Interest</button>
+        <p class="success-msg" id="successMsg"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
