@@ -1,8 +1,8 @@
-# 🌍 Climate Projects Directory
+# Climate Projects Directory
 
 An interactive, lightweight web directory that showcases local climate initiatives across Africa. Built with plain HTML, CSS, and vanilla JavaScript—no frameworks or build tools required.
 
-## 🚀 Features
+## Features
 
 - **Dynamic Directory Rendering:** Renders project cards on the fly from a JavaScript object array.
 - **Real-Time Search:** Instant filtering by project title or location.
@@ -11,7 +11,7 @@ An interactive, lightweight web directory that showcases local climate initiativ
 - **Form Validation:** Form handling with instant feedback for full name and email syntax.
 - **Resilient Media:** Includes automatic fallback placeholders for broken or missing external image links.
 
-## 🛠️ Built With
+## Built With
 
 - **HTML5** – Semantic layout and accessible form structures.
 - **CSS3** – Flexbox, Grid, custom CSS variables, and modal overlays.
